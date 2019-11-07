@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProfileAndHamburguerComponent from '../components/ProfileAndHamburguerComponent';
+import ProfileAndHamburguerComponent from '../../components/ProfileAndHamburguerComponent/ProfileAndHamburguerComponent';
 
 class ProfileAndHamburguerContainer extends Component {
     constructor(props) {

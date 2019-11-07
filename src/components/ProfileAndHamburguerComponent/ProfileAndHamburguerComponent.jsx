@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import user from "../assets/Sprint 1 Tuesday/user.png";
-import "../App.css";
-import hamburguer from '../assets/Sprint 1 Tuesday/hamburguer.png'
+import user from "./user.png";
+import "./ProfileAndHamburguerComponent.css"
+import hamburguer from './hamburguer.png'
 // import ProfileModal from "./ProfileModal";
 
 const ProfileAndHamburguerComponent = () => {

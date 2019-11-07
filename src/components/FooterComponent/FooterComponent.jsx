@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.css";
-import homeIcon from '../assets/Sprint 1 Tuesday/homeIcon.png'
+import homeIcon from './homeIcon.png'
+import "./FooterComponentStyle.css"
 
 const FooterComponent = props => {
   return (

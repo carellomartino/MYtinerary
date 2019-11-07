@@ -1,0 +1,24 @@
+.flex-separated {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .user-img {
+    height: 55px;
+    width: 55px;
+  }
+  
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburguerIcon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .flex-separated {
+    display: flex;
+    justify-content: space-between;
+  }

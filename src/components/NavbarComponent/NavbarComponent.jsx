@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets/Sprint 1 Tuesday/MYtineraryLogo.png";
-import "../App.css";
+import logo from "./NavbarComponentImages/MYtineraryLogo.png";
+import "./NavbarComponentStyle.css";
 
 
 const NavbarComponent = props => {

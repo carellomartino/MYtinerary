@@ -1,0 +1,78 @@
+.container {
+  text-align: center;
+  height: 100vh;
+  width: 50vh;
+  border: 5px solid black;
+  border-radius: 12px;
+  position: relative;
+}
+
+.itineraryLogo{
+  width: 100%;
+  position: absolute;
+  bottom: 73vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.circleImg{
+  width: 40%;
+}
+
+.homeLogo{
+  width: 10%;
+  position: absolute;
+  bottom: 0vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.itineraryContainer{
+  position: absolute;
+  bottom: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.circleContainer{
+  position: absolute;
+  bottom: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.loginContainer{
+  position: absolute;
+  bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.textCircle{
+  font-size: 30px;
+}
+
+.textLogin{
+  font-size: 18px;
+}
+
+.textItinerary{
+  font-size: 18px;
+  position: absolute;
+  bottom: 58vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+

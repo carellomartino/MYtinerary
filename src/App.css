@@ -1,5 +1,21 @@
 .App {
+  margin: 0;
+  padding: 1%;
   text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-separated {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  justify-content: center;
 }
 
 .App-logo {
@@ -8,11 +24,9 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -20,3 +34,89 @@
 .App-link {
   color: #09d3ac;
 }
+
+.tab {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+td {
+  padding: 1%;
+}
+
+table { 
+  border-spacing: 30px;
+  border-collapse: separate;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+}
+
+.myFont {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.arrow {
+  height: 10%;
+  width: 10%;
+}
+
+.footer {
+  margin-top: 2%;
+}
+
+.homeIcon {
+  height: 3%;
+  width: 3%;
+}
+
+.homeLinks {
+  margin-bottom: 10%;
+}
+
+.user-img {
+  height: 55px;
+  width: 55px;
+}
+
+.modal {
+  position: static;
+  margin-top: 3%;  
+}
+
+.hamburguerIcon {
+  width: 55px;
+  height: 55px;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.lefty {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.flexImg {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.images {
+  margin-top:2%;
+  width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  margin-top: 25px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-image: none;
+}
+

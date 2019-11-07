@@ -1,18 +1,18 @@
 import React from "react";
 import "./HomeComponentStyle.css";
-import arrow from "./images/circled-right-2.png";
-import barcelona from "./images/barcelona.jpg";
-import newYork from "./images/newYork.jpg";
-import amsterdam from "./images/amsterdam.jpg";
-import paris from "./images/paris.jpg";
-import buenosAires from "./images/buenosAires.jpg";
-import caracas from "./images/caracas.jpg";
-import mexico from "./images/mexico.jpg";
-import montevideo from "./images/montevideo.jpg";
-import rio from "./images/rio.jpg";
-import roma from "./images/roma.jpg";
-import tokyo from "./images/tokyo.jpg";
-import athens from "./images/athens.jpg";
+import arrow from "./HomeComponentImages/circled-right-2.png";
+import barcelona from "./HomeComponentImages/barcelona.jpg";
+import newYork from "./HomeComponentImages/newYork.jpg";
+import amsterdam from "./HomeComponentImages/amsterdam.jpg";
+import paris from "./HomeComponentImages/paris.jpg";
+import buenosAires from "./HomeComponentImages/buenosAires.jpg";
+import caracas from "./HomeComponentImages/caracas.jpg";
+import mexico from "./HomeComponentImages/mexico.jpg";
+import montevideo from "./HomeComponentImages/montevideo.jpg";
+import rio from "./HomeComponentImages/rio.jpg";
+import roma from "./HomeComponentImages/roma.jpg";
+import tokyo from "./HomeComponentImages/tokyo.jpg";
+import athens from "./HomeComponentImages/athens.jpg";
 // import { Link } from 'react-router-dom'
 
 const HomeComponent = props => {

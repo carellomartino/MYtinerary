@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./NavbarComponentImages/MYtineraryLogo.png";
+import logo from "./NavbarComponentImages/MYtineraryLogo.svg";
 import "./NavbarComponentStyle.css";
 
 

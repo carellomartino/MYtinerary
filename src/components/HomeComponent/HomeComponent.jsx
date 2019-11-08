@@ -17,7 +17,7 @@ import athens from "./HomeComponentImages/athens.jpg";
 
 const HomeComponent = props => {
   return (
-    <div className={"App"}>
+    <div className={"Apps"}>
       <h2 className={"myFont"}>
         Find your perfect trip, designed by insiders who know and love their
         cities.

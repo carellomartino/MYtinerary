@@ -6,14 +6,23 @@ class ProfileAndHamburguerContainer extends Component {
       super(props)
     
       this.state = {
-          show: false         
+          show: false,
+          dataDismiss: "modal"
       };
+      this.changeShow = this.changeShow.bind(this)
     };
+
+    changeShow(){
+        console.log("SSISISISI")
+        this.state.show ? this.setState({show: false}) : this.setState({show: true})
+    }
 
     render() {
         return (
             <div>
                 <ProfileAndHamburguerComponent
+                show={this.state.show}
+                changeShow={this.changeShow}
                 />
                 
             </div>

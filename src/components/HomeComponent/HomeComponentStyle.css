@@ -1,12 +1,11 @@
-.App {
+.Apps {
   margin: 0;
   padding: 1%;
   text-align: center;
 }
 
 .myFont {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Cardo', serif;
 }
 
 .lefty {

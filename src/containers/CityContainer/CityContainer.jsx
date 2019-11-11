@@ -13,7 +13,6 @@ export default class CityContainer extends Component {
     render() {
         return (
             <div>
-                
                 <CityComponent
                 cities={cities}
                 city={this.props.match.params}

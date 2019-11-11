@@ -3,7 +3,7 @@ import React from 'react';
 const CreateAccountComponent = () => {
     return (
         <div>
-            <h1>Entraste a Create Account</h1>
+            <h1>Welcome to Create Account</h1>
         </div>
     );
 };

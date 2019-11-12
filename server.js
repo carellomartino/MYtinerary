@@ -26,7 +26,7 @@ const port = process.env.PORT || 5000;
 const MongoClient = require('mongodb').MongoClient
     var ObjectID = require('mongodb').ObjectID; // we will use this later
     
-    MongoClient.connect('mongodb+srv://carellomartino:careCARE9900@mycluster-1o7tp.mongodb.net/test?retryWrites=true&w=majority', (err, db) => {
+    mongoose.connect('mongodb+srv://carellomartino:careCARE9900@mycluster-1o7tp.mongodb.net/test?retryWrites=true&w=majority', (err, db) => {
       var dbase = db.db("MYtinerary");
 
       app.listen(port, () => console.log(`server running on port ${port}`))
